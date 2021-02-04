@@ -5,10 +5,11 @@ html,body
 .retour
 {   
     display : flex ;
+    justify-content :center;
     font-size : 1.8em;
     width : 100%;
     background-color : rgb(255, 255, 255);
-    
+
 }
 .menuabonnement
 {
