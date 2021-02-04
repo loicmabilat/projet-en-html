@@ -34,6 +34,10 @@ html,body
     font-size : 1.1em;
     width : 25%;
 }
+.colonne11
+{
+    display :none;
+}
 .colonne2
 {
     display : flex;
