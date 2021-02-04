@@ -4,6 +4,8 @@
     <meta charset = "utf_8" />
     <title>abonnement</title>
     <link rel="stylesheet" href="abonnement.css">
+    <link rel="stylesheet" media="screen and (max-width:1000px)"
+         href="mobileabonnement.css"/>
     </head>
 
         <body>
@@ -42,14 +44,14 @@
                 <label for="email">Quel est votre email ?</label>
                 <input type="email" name="email" id="email" size="50" maxlength="50" />
         </p>
-        <p>
-                <label for="pseudo">Choisissez un pseudo optionnel ?</label>
-                <input type="text" name="pseudo" id="pseudo" maxlength="30" size="32" />
-        </p>
 
 </form>
-<input type="submit" value="enregistrer" />
+<div class="submit">
+        <input type="submit" value="ENREGISTRER" style="font-size:0.5em"/>
 </br>
+
+</div>
+
 
 <div class="panierchoisie">
         
@@ -60,7 +62,7 @@
         <form method="post" action="traitement.php">
                 <p>
                         <label for="choixmois">Abonnement choisie soit au mois</label>
-                        <select id="choixmois" name="choixmois" >
+                        <select id="choixmois" name="choixmois" style="font-size:0.8em">
                         <option value="janvier">janvier</option>
                         <option value="fevrier">fevrier</option>
                         <option value="mars">mars</option>
@@ -77,12 +79,12 @@
                 </p>
                 <p>
                         <label for="choixsaison">Abonnement choisie soit à l'annee</label>
-                        <input type="radio" id="choixannee" name="choixsaison" />
+                        <input type="radio" id="choixannee" name="choixsaison"  />
                         <a></a>
                 </p>
         
         <p>
-                <label for="choixsaison">Abonnement choisie soit en été</label>
+                <label for="choixsaison">Abonnement choisie soit </br>en été</label>
                 <input type="radio" id="choixete" name="choixsaison" />
                 <h5>1er semaine de juin à fin septembre</h5>
         </p>
