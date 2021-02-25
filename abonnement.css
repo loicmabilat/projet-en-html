@@ -1,0 +1,51 @@
+html,body
+{
+    background-color:#fbfae6;
+}
+a{
+    text-decoration : none;
+}
+.menuabonnement
+{
+    display : flex;
+    position :absolute;
+    align-items: center;
+    flex-direction: column;
+    top : 50px;
+    height : 800px;
+    width : 70%;
+    cursor :pointer;
+    left : 12%;
+    font-size : 1.4em;
+    background-color :rgb(255, 255, 255);
+    border : 2mm ridge blue;
+}
+.intro
+{
+    display: flex;
+}
+.pubg
+{
+    display : flex;
+    position : absolute;
+    width : 10%;
+    left : 0%;
+    height : 600px ;
+    top : 15% ;
+    border : solid black;
+}
+.pubd
+{
+    display : flex;
+    position : absolute;
+    width : 10%;
+    right : 0%;
+    height : 600px ;
+    top : 5% ;
+    border : solid black;
+}
+
+.btn:hover
+{
+    
+}

@@ -1,0 +1,92 @@
+body
+{
+    background-color: #fdf257;
+    text-align :center;
+    
+}
+a{
+    text-decoration : none;
+}
+.accueil
+{
+    display:flex;
+    position: absolute;
+    width : 100%;
+    top : 2%;
+    justify-content: center;
+    font-size : 1.9rem;
+}
+.menu
+{
+    display:flex;
+    position: absolute;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width : 78%;
+    left : 11%;
+    top : 10%;
+    font-size:1.2em;
+}
+
+input
+{
+    justify-content: center;
+    font-size : 1.1rem;
+    width: 600px;
+    height : 60px;
+    margin : 10px;
+    border: 2mm ridge rgba(50, 61, 220, 0.6);
+}
+input:hover
+{
+    background-color : rgb(169, 169, 255);
+}
+.checkbox
+{
+    background-color : rgb(183, 255, 169);
+    width : 30px;
+    height : 30px;
+
+}
+.checkbox:hover
+{
+    background-color : rgb(169,169,255);
+    
+}
+
+.accord
+{
+    display : flex;
+    align-items: center;
+    position :relative;
+    width: 70%;
+    left: 15%;
+    height : 60px;
+    margin : 1px;
+    padding : auto;
+    border: 2mm ridge rgba(50, 61, 220, 0.6);
+}
+
+
+.pubg
+{
+    display : flex;
+    position : absolute;
+    width : 10%;
+    left : 0%;
+    height : 600px ;
+    top : 5% ;
+    border : solid black;
+    
+}
+.pubd
+{
+    display : flex;
+    position : absolute;
+    width : 10%;
+    right : 0%;
+    height : 600px ;
+    top : 5% ;
+    border : solid black;
+}
