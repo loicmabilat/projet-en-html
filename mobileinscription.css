@@ -30,16 +30,22 @@ body
 .accord
 {
     display : flex;
-    text-align :center;
     position :relative;
+    text-align :center;
+    
     flex-direction: column;
-    width: 98%;
+    width: 90%;
+    left : 1%;
     height : 220px;
     margin :auto ;
     padding : auto;
     border : solid rgb(0, 0, 0);
 }
-
+.checkbox
+{
+    height : 40px;
+    width : 80px;
+}
 input
 {
     
