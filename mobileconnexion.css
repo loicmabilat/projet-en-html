@@ -1,15 +1,100 @@
-
 .connexion
 {
     display : flex;
     position : absolute;
     width :100%;
     top: 5%;
-    background-color :rgb(247, 255, 218);
-    font-size: 2.8em;
+    left : 0%;
+    justify-content:space-around;
+    flex-direction : column;
+    text-align : center;
+    font-size : 3rem;
+    background-color :beige;
+    
+}
+.mail
+{
+    display : flex;
+    position :relative;
+    width : 90%;
+    left : 5%;
+  background-color :rgb(255, 255, 255);
+  color :rgb(9,117,36) ;
+  border : solid rgb(9, 117, 36) ;
+  border-radius :50px;
+  height:80px;
+  font-size:2.5em;
+}
+.password
+{
+  background-color :rgb(255, 255, 255);
+  
+  border : solid rgb(9, 117, 36) ;
+  height:80px;
+  width : 50%;
+  left : 25%;
+}
+.submit {
+    display : flex;
+    position :relative;
+    width : 90%;
+    left : 5%;
+    top : 20px;
+    height:70px;   
+    background-color :rgb(231, 231, 231);
+  border: 2px solid rgb(9, 117, 36);
+  border-radius: 5rem;
+  cursor: pointer;
+  font-size: 3rem;
+  text-align:center;
+  flex-direction :column;
+  overflow: hidden;
+  padding: 1.85rem 3rem;
+  transition: transform 800ms, background-color 500ms;
+  transition-delay: 0, 300ms;
+    align-items :center;
+    justify-content : center;
+}
+
+.submit:hover {
+  transform: scale(1.1);
+  background-color: #1e7bd8;
+  color: rgb(207, 56, 36);
+}
+.recup
+{
+  display : flex;
+  position : relative;
+  top : 200px;
+  justify-content: center;
+  border : solid rgb(41, 195, 118);
+  border-radius : 10px;
+  flex-direction :column;
+  text-align : center;
+  height:40px;
+  font-size:2em;
+  width : 80%;
+  height : 100px;
+  left : 10%;
+  background-color: #8bb7fd;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style :oblique;
+  text-shadow: rgb(83, 243, 248) -3px -1px 1px;
+}
+
+b{
+  color : rgb(10, 66, 0);
+}
+
+h1{
+  color :rgb(9,117,36) ;
+  text-decoration-line: underline;
+}
+
+a{
+    text-decoration : none;
 }
 .retour
 {
-    
-    font-size : 3rem;
+    font-size : 5rem;
 }
